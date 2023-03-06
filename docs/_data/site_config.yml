@@ -1,2 +1,6 @@
+# this is placed in _data as an example 
+# you can remove this file/directory
+# if you dont need the _data folder
+ 
 - author: thegreedypeople
   description: "Mga himaya sa huna-huna."
