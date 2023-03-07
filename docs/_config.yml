@@ -10,11 +10,18 @@ description: >
   in _config.yml. It will appear in your document head meta (for Google search
   results) and in your feed.xml site description.
 
-# Build settings
+url: "https://nxyslp.github.io"
+baseurl: "/minima-on-subfolder-setup"
+
+### Build settings
 
 theme: minima
 
+# Plugins in the Gemfile should be repeated here for Github Pages to use them.
+# Otherwise your content which depends on the plugin will cause a build to a fail.
+
 plugins:
+  - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
 
