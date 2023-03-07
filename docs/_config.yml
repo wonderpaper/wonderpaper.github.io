@@ -25,9 +25,24 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-# Pagination
-paginate: 5
-paginate_path: "/posts/page:num/"
+# Produces a cleaner folder structure when using categories 
+ permalink: /:year/:month/:title.html 
+  
+ # Explicitly turn off the old code 
+ paginate: nil 
+ paginate_path: nil 
+  
+ # Pagination Settings 
+ pagination: 
+   enabled: true 
+   per_page: 3 
+   offset: 2 
+   permalink: '/page/:num/' 
+   title: ':title - page :num of :max' 
+   limit: 0 
+   sort_field: 'date' 
+   sort_reverse: true
+
 
 # Theme-specific settings
 
@@ -76,6 +91,7 @@ exclude:
 #  - .git
 
 encoding: "utf-8"
+markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
