@@ -8,18 +8,18 @@ page test
 :path
 ```
 
-{{ :path }}
+1. :path = {{ :path }}
 
-{{ page.path }}
+2. page.path = {{ page.path }}
 
 ```
 :basename
 ```
 
-{{ :basename }}
+3. :basename = {{ :basename }}
 
-{{ page.basename }}
+4. page.basename = {{ page.basename }}
 
 `page.title`
 
-{{ page.title }}
+5. page.title = {{ page.title }}
