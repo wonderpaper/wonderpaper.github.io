@@ -25,11 +25,18 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate-v2
- 
-# Explicitly turn off the old code 
-paginate: nil 
-paginate_path: nil
 
+paginate: nil
+
+# Pagination Settings
+pagination:
+  enabled: true
+  per_page: 3
+  permalink: '/page/:num/'
+  title: ' - page :num'
+  limit: 0
+  sort_field: 'date'
+  sort_reverse: true
 
 # Theme-specific settings
 
@@ -100,9 +107,4 @@ defaults:
       layout: page
       permalink: /:basename
 
-# ####
-# Site configuration for the Jekyll 3 Pagination
-
-pagination:
-  enabled: true
 
