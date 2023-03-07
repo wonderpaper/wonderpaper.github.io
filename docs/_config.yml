@@ -70,7 +70,8 @@ defaults:
     values:
       is_post: true
       layout: post
-      permalink: /:categories/:title/
+      permalink: /:categories/:year/:month/:day/:title
+
   -
     scope:
       type: pages
