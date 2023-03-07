@@ -27,8 +27,8 @@ plugins:
   - jekyll-paginate
 
 # Pagination
-paginate: 5
-paginate_path: "/posts/page:num/"
+paginate: 3
+paginate_path: "/blog/page:num/"
 
 # Theme-specific settings
 
