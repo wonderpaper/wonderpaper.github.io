@@ -74,6 +74,7 @@ exclude:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+
 defaults:
   -
     scope:
@@ -90,6 +91,5 @@ defaults:
     values:
       is_post: false
       layout: page
-      permalink: /:categories/:title/
-
+      permalink: pretty
 
