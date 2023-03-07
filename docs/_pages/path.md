@@ -20,6 +20,8 @@ page test
 
 4. page.basename = {{ page.basename }}
 
+5. site.basename = {{ site.basename }}
+
 `page.title`
 
 5. page.title = {{ page.title }}
