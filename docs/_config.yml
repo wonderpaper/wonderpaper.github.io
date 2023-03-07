@@ -26,6 +26,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate-v2
 
+#gems:
+#  - jekyll-paginate-v2
+
 paginate: nil
 
 # Pagination Settings
