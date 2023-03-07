@@ -91,5 +91,5 @@ defaults:
     values:
       is_post: false
       layout: page
-      permalink: pretty
+      permalink: /:basename
 
