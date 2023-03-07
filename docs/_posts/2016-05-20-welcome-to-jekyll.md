@@ -1,5 +1,6 @@
 ---
 layout: post
+permalink: /categories/:year/:month/:day/:title
 ---
 
 harhar update test
