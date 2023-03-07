@@ -2,7 +2,7 @@
 layout: default
 ---
 
-```md
+```markdown
 {{ site.paginate }}
 ```
 
