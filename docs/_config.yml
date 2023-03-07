@@ -62,6 +62,21 @@ minima:
 #
 # show_excerpts: false
 
+# Reading Files
+include:
+  - _pages
+exclude:
+#  - config
+#  - Gemfile
+  - LICENSE
+  - README
+
+#keep_files:
+#  - .git
+
+encoding: "utf-8"
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 defaults:
   -
     scope:
@@ -71,7 +86,6 @@ defaults:
       is_post: true
       layout: post
       permalink: /:categories/:year/:month/:day/:title
-
   -
     scope:
       type: pages
@@ -79,3 +93,6 @@ defaults:
     values:
       is_post: false
       layout: default
+      permalink: /:categories/:title
+
+
