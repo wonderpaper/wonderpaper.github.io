@@ -65,6 +65,8 @@ minima:
 # Reading Files
 include:
   - _pages
+exclude:
+  - README
 
 #keep_files:
 #  - .git
@@ -88,6 +90,6 @@ defaults:
     values:
       is_post: false
       layout: page
-      permalink: /:categories/:title
+      permalink: /:categories/:title/
 
 
