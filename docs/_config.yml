@@ -28,7 +28,7 @@ plugins:
 
 # Pagination
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/posts/page:num/"
 
 # Theme-specific settings
 
