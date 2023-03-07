@@ -70,7 +70,7 @@ defaults:
     values:
       is_post: true
       layout: post
-      permalink: /blog/:categories/:title/
+      permalink: /:categories/:title/
   -
     scope:
       type: pages
