@@ -64,7 +64,7 @@ defaults:
     values:
       is_post: true
       layout: post
-      permalink: /:categories/:year/:month/:day/:title
+      permalink: /minima-on-subfolder-setup/:categories/:year/:month/:day/:title
   -
     scope:
       type: pages
