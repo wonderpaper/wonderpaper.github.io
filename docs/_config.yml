@@ -17,6 +17,8 @@ baseurl: "/minima-on-subfolder-setup"
 
 theme: minima
 
+paginate: 5
+paginate_path: "/page:num/"
 
 # Plugins in the Gemfile should be repeated here for Github Pages to use them.
 # Otherwise your content which depends on the plugin will cause a build to a fail.
@@ -26,9 +28,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-paginate
-
-paginate: 5
-paginate_path: "/page:num/"
 
 # Theme-specific settings
 
@@ -79,6 +78,9 @@ exclude:
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
+sass:
+  style: compressed
+  source_dir: _sass
 
 defaults:
   -
