@@ -18,7 +18,7 @@ baseurl: "/minima-on-subfolder-setup"
 theme: minima
 
 paginate: 5
-paginate_path: "/page:num/"
+paginate_path: "/blog/page:num/"
 
 # Plugins in the Gemfile should be repeated here for Github Pages to use them.
 # Otherwise your content which depends on the plugin will cause a build to a fail.
