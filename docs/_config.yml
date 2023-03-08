@@ -72,7 +72,6 @@ exclude:
 #  - .git
 
 encoding: "utf-8"
-markdown: kramdown
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
 
