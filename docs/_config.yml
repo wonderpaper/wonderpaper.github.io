@@ -91,6 +91,6 @@ defaults:
     values:
       is_post: false
       layout: page
-      permalink: /:categories/:basename
+      permalink: /:basename
 
 
