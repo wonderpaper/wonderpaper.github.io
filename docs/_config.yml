@@ -57,7 +57,7 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 #  style: compressed
 #  source_dir: _sass
 
-#defaults:
+defaults:
   -
     scope:
       type: posts
@@ -72,4 +72,3 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
     values:
       layout: page
       permalink: /:basename
-
