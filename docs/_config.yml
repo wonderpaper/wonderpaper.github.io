@@ -29,7 +29,7 @@ plugins:
 
 # settings
 
-permalink: /:categories/:title
+#permalink: /:categories/:title
 
 # If you want to link only specific pages in your header, uncomment this and add the path to the pages in
 # order as they should show up.
@@ -62,14 +62,14 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
     scope:
       type: posts
       path: ""
-#    values:
-#      layout: post
-#      permalink: /:categories/:year/:month/:day/:title
+    values:
+      layout: post
+      permalink: /:categories/:year/:month/:day/:title
   -
     scope:
       type: pages
       path: "_pages"
-#    values:
-#      layout: page
-#      permalink: /:basename
+    values:
+      layout: page
+      permalink: /:basename
 
