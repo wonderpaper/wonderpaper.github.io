@@ -62,14 +62,14 @@ markdown_ext: "markdown,mkdown,mkdn,mkd,md"
     scope:
       type: posts
       path: ""
-    values:
-      layout: post
+#    values:
+#      layout: post
 #      permalink: /:categories/:year/:month/:day/:title
   -
     scope:
       type: pages
       path: "_pages"
-    values:
-      layout: page
+#    values:
+#      layout: page
 #      permalink: /:basename
 
